@@ -1,0 +1,8 @@
+<h1>SHIKUSI HOME PAGE</h1>
+<form method="get">
+  {% csrf_token %}
+<input type="button" name="registrationbtn" onclick="location.href='{% url 'registration' %}'" value="registration"> REGISTRATION</input>
+<br/><br/>
+  <input type="button" name='triagebtn' onclick="location.href='{% url 'triage' %}'" value="triage"> TRIAGE</input>
+</form>
+
