@@ -1,0 +1,7 @@
+# Creating a project
+django-admin startproject mysite
+
+# Running the development server
+ python manage.py runserver
+ 
+ 
